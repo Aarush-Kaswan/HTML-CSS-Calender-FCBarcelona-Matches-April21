@@ -1,0 +1,68 @@
+caption{
+	font-variant: small-caps;
+	background: url(https://previews.123rf.com/images/sofiartmedia/sofiartmedia1710/sofiartmedia171000041/87289536-catalonia-red-and-yellow-color-flag-stripes-seamless-pattern-independence-day-patriotic-background-m.jpg);
+	font-weight: bold;
+	font-size: 150%;
+	border: 2px solid #000000;
+	border-radius: 20px 20px 0px 0px;
+}
+
+table{
+	border: 2px solid #000000;
+	border-radius: 0px 0px 20px 20px;
+	margin: 200px;
+}
+
+th{
+	border: 2px solid #000000;
+	background: #00be57;
+	margin: 5px;
+	padding: 5px;
+	font-size: 120%
+}
+
+td{
+	border: 1px solid #000000;						
+	width: 75px;
+	height: 75px;
+	vertical-align: top;
+	font-size: 120%;
+}
+
+span{
+	display: block;
+	text-align: center;
+	color: #ff0000;
+	font-weight: bold;
+	visibility: hidden;
+}
+
+td:hover>span{
+	visibility: visible;
+}
+
+tr:nth-child(odd){
+	background: #f2f2f2;
+}
+
+tr:nth-child(even){
+	background: #cdbb79
+}
+
+tr:last-child>td:first-child{
+	border-radius: 0 0 0 20px;
+}
+
+tr:last-child>td:last-child{
+	border-radius: 0 0 20px 0;
+}
+
+.old{
+	opacity: 0.3;
+	background: #ffffff;
+}
+
+.el-clasico{
+	background: #2e93dd;
+}
+
